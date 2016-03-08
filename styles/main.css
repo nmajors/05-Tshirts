@@ -25,9 +25,24 @@ body {
   margin: 0 25px;
 }
 
+.rotate {
+  width: 27px;
+  height: 27px;
+  background-image: url(../images/assets/icons/rotate.png);
+  background-size: contain;
+  background-position: center;
+  border: 3px solid #7ab5d3;
+  border-right: 0;
+  float: right;
+  display: inline-block;
+}
+
+.rotate:hover{
+  background-image: url(../images/assets/icons/rotate_hover.png);
+}
 .tshirt-box  {
   width: 357px;
-  height: 402px;
+  height: 432px;
   border: 3px solid #7ab5de;
   border-bottom: 0;
 
@@ -36,6 +51,7 @@ body {
 
 .tshirt-box--tshirt-image {
   width: 360px;
+  padding-top: -30px;
 }
 
 .tshirt-box--tshirt-image img {
@@ -53,6 +69,16 @@ body {
   border-left: 0;
 }
 
+.icon-image1 {
+  background: url(../images/assets/icons/button_1.png);
+}
+.icon-image2 {
+  background: url(../images/assets/icons/button_2.png);
+}
+.icon-image3 {
+  background: url(../images/assets/icons/button_3.png);
+}
+
 .icon-box--icon {
   width: 69px;
   height: 50px;
@@ -62,36 +88,64 @@ body {
   display: inline-block;
   float: left;
   position:relative;
+  background-size: contain;
+  background-position: center;
+  background-color: white;
+}
+
+ .icon-image1:hover {
+  background-image: url(../images/assets/icons/button_1_hover.png);
+}
+
+.icon-image2:hover {
+  background-image: url(../images/assets/icons/button_2_hover.png);
+}
+
+.icon-image3:hover {
+  background-image: url(../images/assets/icons/button_3_hover.png);
 }
 
 .icon-box--text {
-  display: inline-block;
-  margin: auto 20px;
+  display: inline block;
+  width: 70px;
+  text-align: center;
+  margin: 0 auto;
  }
+.icon-box--icon:hover {
+  background-color: #7ab5de;
+}
+.icon-box--text:hover {
+  color: #fff;
+  background-color: #7ab5de;
+}
 
 .icon-box--colored-box1 {
   width: 30px;
   height: 30px;
   background-color: #7ab5de;
-  margin: 10px 20px 10px 20px;
+  margin: 9px 19px;
   display: inline-block;
+  border: 2px solid white;
 }
 
 .icon-box--colored-box2 {
   width: 30px;
   height: 30px;
   background-color: #D482AA;
-  margin: 10px 20px 10px 20px;
+  margin: 9px 19px;
   display: inline-block;
+  border: 2px solid white;
 }
 
 .icon-box--colored-box3 {
   width: 30px;
   height: 30px;
   background-color: #DEB17E;
-  margin: 10px 20px 10px 20px;
+  margin: 9px 19px;
   display: inline-block;
+  border: 2px solid white;
 }
+
 
 .footer-box {
   width:363px;
