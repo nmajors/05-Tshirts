@@ -30,6 +30,8 @@ body {
   height: 402px;
   border: 3px solid #7ab5de;
   border-bottom: 0;
+
+
 }
 
 .tshirt-box--tshirt-image {
@@ -47,6 +49,10 @@ body {
   float: left;
 }
 
+.icon-box--icon:first-child {
+  border-left: 0;
+}
+
 .icon-box--icon {
   width: 69px;
   height: 50px;
@@ -57,46 +63,6 @@ body {
   float: left;
   position:relative;
 }
-
-
-.icon-box--icon:hover .icon-box--hover-button {
-  visibility: visible;
-  opacity: 1;
-}
-
-.icon-box--icon:first-child {
-  border-left: 0;
-}
-
- .icon-box--visible-button {
-   width: 60px;
-   height: 50px;
-   margin: auto;
- }
-
- .icon-box--icon img {
-   width: 100%;
-   height: 50px;
- }
-
-
-
-.icon-box--hover-button {
-  width: 60px;
-  height: 50px;
-  border: 3 px solid #000;
-  background-color: #7ab5de;
-  position: absolute;
-  left: 5px;
-  top: -53px;
-
-  opacity: 0;
-}
-.icon-box--icon img {
-  width: 100%;
-  height: 50px;
-}
-
 
 .icon-box--text {
   display: inline-block;
