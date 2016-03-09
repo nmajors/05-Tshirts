@@ -9,9 +9,9 @@
 
 body {
   font-family: Helvetica, sans-serif;
-  color: #7ab5de;
-  margin: 0;
-  padding: 10px;
+  color: #81BCE6;
+  margin: 5px;
+
 }
 
 
@@ -43,7 +43,7 @@ body {
 .tshirt-box  {
   width: 357px;
   height: 432px;
-  border: 3px solid #7ab5de;
+  border: 3px solid #81BCE6;
   border-bottom: 0;
 
 
@@ -83,7 +83,7 @@ body {
   width: 69px;
   height: 50px;
   font-size: .7rem;
-  border: 3px solid #7ab5de;
+  border: 3px solid #81BCE6;
   border-right: 0;
   display: inline-block;
   float: left;
@@ -93,8 +93,17 @@ body {
   background-color: white;
 }
 
+.icon-box--icon:hover .icon-box--hidden-box-size {
+   visibility: visible;
+   opacity: 1;
+ }
+ .icon-box--icon:hover .icon-box--hidden-box-color {
+    visibility: visible;
+    opacity: 1;
+  }
  .icon-image1:hover {
   background-image: url(../images/assets/icons/button_1_hover.png);
+  visibility: visible;
 }
 
 .icon-image2:hover {
@@ -112,17 +121,28 @@ body {
   margin: 0 auto;
  }
 .icon-box--icon:hover {
-  background-color: #7ab5de;
+  background-color: #81BCE6;
 }
 .icon-box--text:hover {
   color: #fff;
-  background-color: #7ab5de;
+  background-color: #81BCE6;
+}
+.icon-box--hidden-box-size {
+  width: 75px;
+  height: 175px;
+  border: 3px solid #81BCE6;
+  background-color: #fff;
+  position:absolute;
+  bottom: 100%;
+  padding-right: 5px;
+  margin-left: -8px;
+  visibility: hidden;
 }
 
 .icon-box--colored-box1 {
   width: 30px;
   height: 30px;
-  background-color: #7ab5de;
+  background-color: #81BCE6;
   margin: 9px 19px;
   display: inline-block;
   border: 2px solid white;
@@ -144,6 +164,42 @@ body {
   margin: 9px 19px;
   display: inline-block;
   border: 2px solid white;
+}
+
+.icon-box--hidden-box-color {
+  width: 76px;
+  height: 76px;
+  border: 3px solid #81BCE6;
+  background-color: #fff;
+  position:absolute;
+  bottom: 100%;
+  padding: 5px;
+  margin-left: -10px;
+  visibility: hidden;
+}
+
+.icon-box--hidden-box-section {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border: 3px solid white;
+}
+
+.blue {
+  background-color: #81BCE6;
+
+}
+
+.pink {
+  background-color: #D482AA;
+}
+
+.puke {
+  background-color: #DEB17E;
+}
+
+.green {
+  background-color: #8BB992;
 }
 
 
