@@ -101,9 +101,10 @@ body {
     visibility: visible;
     opacity: 1;
   }
- .icon-image1:hover {
-  background-image: url(../images/assets/icons/button_1_hover.png);
-  visibility: visible;
+
+.icon-image1:hover {
+background-image: url(../images/assets/icons/button_1_hover.png);
+visibility: visible;
 }
 
 .icon-image2:hover {
@@ -115,7 +116,7 @@ body {
 }
 
 .icon-box--text {
-  display: inline block;
+  display: inline-block;
   width: 70px;
   text-align: center;
   margin: 0 auto;
@@ -138,6 +139,8 @@ body {
   margin-left: -8px;
   visibility: hidden;
 }
+
+
 
 .icon-box--colored-box1 {
   width: 30px;
@@ -165,7 +168,6 @@ body {
   display: inline-block;
   border: 2px solid white;
 }
-
 .icon-box--hidden-box-color {
   width: 76px;
   height: 76px;
@@ -183,6 +185,7 @@ body {
   height: 30px;
   display: inline-block;
   border: 3px solid white;
+  background-color:white;
 }
 
 .blue {
@@ -201,6 +204,7 @@ body {
 .green {
   background-color: #8BB992;
 }
+
 
 
 .footer-box {
